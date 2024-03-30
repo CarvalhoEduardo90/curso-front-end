@@ -2,44 +2,65 @@
 <html lang="pt-br">
 	<head>
 		<title>HTML - Listas e Links</title>
-		<meta charset="utf-8">
+		<meta charset="UTF-8">
 	</head>
 	<body>
-		<h2>Listas e Links</h2>
-		<h1>Listas</h1>
+		<h1>Listas e Links</h1>
 
-		<h3 id="lista-nao-ordenada">Lista não ordenada</h3>
+		<h2 id="lista-nao-ordenada">Lista não ordenada</h2>
+		
 		<ul>
-			<li>Brasil</li>
-			<li>Ceará</li>
-			<li>Fortaleza</li>
+			<li>
+				Brasil
+				<ul>
+					<li>São Paulo
+						<ol>
+							<li>São Paulo</li>
+						</ol>
+					</li>
+					<li>Rio de Janeiro</li>
+					<li>Minas Gerais</li>
+					<li>Pará
+						<ul>
+							<li>Belém</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
 			<li>Argentina</li>
+			<li>Uruguai</li>
+			<li>Paraguai</li>
 		</ul>
 
-		<h3>Lista ordenada</h3>
+		<h2>Lista ordenada</h2>
+
 		<ol>
-			<li>Carlos</li>
-			<li>Luan</li>
-			<li>Paulo</li>
-			<li>Karl</li>
+			<li>Corinthians</li>
+			<li>Palmeiras</li>
+			<li>Santos</li>
+			<li>São Paulo</li>
 		</ol>
 
-		<h3>Lista de definições</h3>
+		
+		<h2>Lista de Definições</h2>		
+
 		<dl>
-			<dt>Bola</dt>
-				<dd>Pequena, Amarela, ...</dd>
-				<dd>Cheia, Bonita, ...</dd>
-			<dt>Carro</dt>
-				<dd>Azul, 2024, ...</dd>
+			<dt>TV</dt>
+				<dd>32 polegadas, smart, ...</dd>
+				<dd>127 volts</dd>
+			<dt>PC</dt>
+				<dd>USB, 19 polegadas, Core I5</dd>
 		</dl>
 
-		<h1>Links</h1>
+		<h2>Links</h2>
+
 		<nav>
 			<ul>
 				<li><a href="https://ebaconline.com.br">EBAC</a></li>
-				<li><a href="#top">Voltar ao topo</a></li>
+				<li><a href="#top">Voltar ao topo</a> </li>
 				<li><a href="#lista-nao-ordenada">Ver a lista não ordenada</a></li>
 			</ul>
 		</nav>
+
 	</body>
 </html>
